@@ -1,0 +1,68 @@
+.sub-head{
+    font-size: 24px;
+    line-height: 1.1666666667;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+   
+  
+}
+.head-container{
+display: flex;
+align-items: center;
+flex-direction: column;
+row-gap: -100%;
+
+
+
+}
+.sub-head2{
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+}
+.sub-para{
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.head-btn{
+    border-radius: 980px;
+   
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 1.1764805882;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    min-width: 28px;
+    padding: 8px 16px;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff;
+    
+}
+.head-a a{
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.ul-head{
+    margin-left: 0;
+    margin-right: 0;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+}
