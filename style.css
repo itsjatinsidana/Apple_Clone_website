@@ -151,3 +151,38 @@ gap:-500px;
        
       
     }
+
+    .bann-image3{
+        background-image: url('./assests/images/banner3.jpg');
+        width: 494px;
+    height: 830px;
+    background-size: 494px 830px;
+    background-repeat: no-repeat;
+    
+    }
+
+    .banner3-container{
+    display: flex;
+    justify-content: center;
+  }
+  .bann4{
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #06c;
+  }
+  .bannhide{
+    position: absolute;
+    clip: rect(1px,1px,1px,1px);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+  }
+  .bann3img{
+   
+  }
