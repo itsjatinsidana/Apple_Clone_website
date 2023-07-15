@@ -16,10 +16,17 @@ align-items: center;
 flex-direction: column;
 gap:-500px;
 
+}
 
 
+.card{
+    display: flex;
+    margin: 10px;
+justify-content: center;
+    padding: 10px;
 
 }
+
 .sub-head2{
     font-size: 48px;
     line-height: 1.0834933333;
@@ -164,7 +171,7 @@ gap:-500px;
     .banner3-container{
     display: flex;
     justify-content: center;
-    column-gap: -20px;
+   
   }
   .bann4{
     font-size: 48px;
@@ -241,3 +248,90 @@ gap:-500px;
     font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
     margin-left: 130px;
   }
+  .h2-cards{
+    text-align: center;
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+  }
+  .i1{
+    background-image: url('./assests/images/i1.jpg');
+    width: 190px;
+    height: 257px;
+    background-size: 190px 257px;
+    background-repeat: no-repeat;
+  }
+  .i1-colour{
+
+    background-image: url('./assests/images/i1color.png');
+    width: 68px;
+    height: 14px;
+    background-size: 68px 14px;
+    background-repeat: no-repeat;
+    margin-left: 80px;
+  }
+  .i14{
+    background-image: url('./assests/images/i14.png');
+    width: 137px;
+    height: 20px;
+    background-size: 137px 20px;
+    background-repeat: no-repeat;
+  }
+  .card-p{
+    font-size: 14px;
+    line-height: 1.4285914286;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+   
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-left: 60px;
+  }
+  .card-btn{
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    min-width: 23px;
+    padding: 4px 11px;
+    --sk-button-margin-horizontal: 10px;
+    --sk-button-margin-vertical: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 1.1764805882;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    min-width: 28px;
+    padding: 8px 16px;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff;
+    --sk-button-margin-horizontal: 14px;
+    --sk-button-margin-vertical: 14px;
+    margin-left: 60px;
+  }
+  .card-learn{
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #06c;
+    letter-spacing: inherit;
+    margin-left: 50px;
+
+
+  }
+.single-card{
+    border-bottom:#0b0b0b .02em solid;
+    gap: 80px;
+}
