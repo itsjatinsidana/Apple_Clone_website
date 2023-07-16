@@ -477,5 +477,68 @@ justify-content: center;
     position: relative;
 }
 .banner5container{
-  margin-top: 50px;
+  margin-top: 70px;
+}
+.bann6head{
+  font-size: 56px;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+.bann6fig{
+  background-image: url('./assests/images/banner6.jpg');
+  background-color: #fff;
+    background-position: center;
+    text-align: center;
+    
+    width: 1380px;
+    height: 560px;
+    background-size: 1380px 560px;
+    background-repeat: no-repeat;
+}
+.bann6head{
+  font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  
+}
+.bann6p{
+  font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+.bann6anchor{
+  text-decoration: none;
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #06c;
+    letter-spacing: inherit;
+   margin-left: 43%;
+}
+.bann6{
+  margin-top: -40%;
+
+}
+.footerp{
+  font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.footer{
+ 
+ 
+ padding: 200px;
+ margin-top: 13%;
 }
