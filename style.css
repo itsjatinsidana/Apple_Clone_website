@@ -377,3 +377,105 @@ justify-content: center;
     background-size: 151px 257px;
     background-repeat: no-repeat
 }
+.banner-4{
+  background-image: url('./assests/images/banner4.jpg');
+  width: 1460px;
+    height: 560px;
+    background-size: 1460px 560px;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+.bann4head{
+  font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-left: 500px;
+}
+.bann4body{
+  font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-left: 500px ;
+}
+.bann4anchor{
+  text-decoration: none;
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #06c;
+    letter-spacing: inherit;
+    margin-left: 625px;
+}
+.icon1{
+  background-image: url('./assests/images/icon1.png');
+  width: 51px;
+    height: 75px;
+    background-size: 51px 75px;
+    background-repeat: no-repeat;
+  
+    position: relative;
+    
+    
+}
+.bann5head{
+  
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+  font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.bann5p{
+  font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.bann5anchor{
+  text-decoration: none;
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #06c;
+    letter-spacing: inherit;
+    
+}
+.banner-5{
+  display: flex;
+  flex-direction:row;
+  gap: 60px;
+  margin-left: 260px;
+  margin-top: 60px;
+  
+
+}
+.icon2{
+  background-image: url('./assests/images/icon2.png');
+  width: 51px;
+    height: 75px;
+    background-size: 51px 75px;
+    background-repeat: no-repeat;
+  
+    position: relative;
+}
+.icon3{
+  background-image: url('./assests/images/icon3.png');
+  width: 51px;
+    height: 75px;
+    background-size: 51px 75px;
+    background-repeat: no-repeat;
+  
+    position: relative;
+}
+.banner5container{
+  margin-top: 50px;
+}
