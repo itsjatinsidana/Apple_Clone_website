@@ -1,587 +1,696 @@
-.sub-head{
-    font-size: 24px;
-    line-height: 1.1666666667;
-    font-weight: 600;
-    letter-spacing: -0.003em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    margin: 10px;
-    padding: 0%;
-   
-   
-  
-}
-.head-container{
-display: flex;
-align-items: center;
-flex-direction: column;
-gap:-500px;
+.sub-head {
+  font-size: 24px;
+  line-height: 1.1666666667;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 10px;
+  padding: 0%;
+
+
 
 }
 
+.head-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: -500px;
 
-.card{
-    display: flex;
-    margin: 10px;
-justify-content: center;
-    padding: 10px;
+}
+
+
+.card {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  padding: 10px;
 
 }
 
-.sub-head2{
-    font-size: 48px;
-    line-height: 1.0834933333;
-    font-weight: 600;
-    letter-spacing: -0.003em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    margin: 10px;
-    padding: 0%;
-    
-}
-.sub-para{
-    font-size: 21px;
-    line-height: 1.381002381;
-    font-weight: 400;
-    letter-spacing: .011em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    margin: 0%;
-    padding: 0%;
-    margin-top: 20px;
-}
-.head-btn{
-    border-radius: 980px;
-   
-    cursor: pointer;
-    display: inline-block;
-    text-align: center;
-    white-space: nowrap;
-    font-size: 17px;
-    line-height: 1.1764805882;
-    font-weight: 400;
-    letter-spacing: -0.022em;
-    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    min-width: 28px;
-    padding: 8px 16px;
-    border-radius: 980px;
-    background: #0071e3;
-    color: #fff;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    
-    
-}
-.head-a a{
-    text-decoration: none;
-    font-size: 21px;
-    line-height: 1.381002381;
-    font-weight: 400;
-    letter-spacing: .011em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    color: #06c;
-    letter-spacing: inherit;
-}
-.ul-head{
-    margin-left: 0;
-    margin-right: 0;
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    gap: 20px;
+.sub-head2 {
+  font-size: 48px;
+  line-height: 1.0834933333;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 10px;
+  padding: 0%;
+
 }
 
-.bann-image{
-    background-image: url('./assests/images/banner.jpg');
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    color: white;
-    z-index: 25;
-    width: 981px;
-    height: 496px;
-    background-size: 981px 496px;
-    left: 50%;
-    margin-left: -490.5px;
-    
-    
+.sub-para {
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 400;
+  letter-spacing: .011em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20px;
 }
-.banner2-bc{
-    background-color: black;
-    color: #f5f5f7;
+
+.head-btn {
+  border-radius: 980px;
+
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  min-width: 28px;
+  padding: 8px 16px;
+  border-radius: 980px;
+  background: #0071e3;
+  color: #fff;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 
 
 }
-.bann-image2{
-    background-image: url('./assests/images/banner2.jpg');
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-   
-   
-   
-    left: 50%;
-    margin-left: -490.5px;
-    
 
-    
-    height: 393px;
-    width: 961px;
-    
-    background-size: 999px 500px;
+.head-a a {
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 400;
+  letter-spacing: .011em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #06c;
+  letter-spacing: inherit;
+}
+
+.ul-head {
+  margin-left: 0;
+  margin-right: 0;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  gap: 20px;
+}
+
+.bann-image {
+  background-image: url('./assests/images/banner.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+  z-index: 25;
+  width: 981px;
+  height: 496px;
+  background-size: 981px 496px;
+  left: 50%;
+  margin-left: -490.5px;
 
 
 }
-.head-container1{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    
-  
 
-    
-    }
-    
-    
-    .sub-head1{
-        font-size: 24px;
-        line-height: 1.1666666667;
-        font-weight: 600;
-        letter-spacing: -0.003em;
-        font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-        margin: 10px;
-        padding: 0%;
-        margin-top: 80px;
-       
-       
-      
-    }
+.banner2-bc {
+  background-color: black;
+  color: #f5f5f7;
 
-    .bann-image3{
-        background-image: url('./assests/images/banner3.jpg');
-        width: 494px;
-    height: 830px;
-    background-size: 494px 830px;
-    background-repeat: no-repeat;
-    
-    }
 
-    .banner3-container{
-    display: flex;
-    justify-content: center;
-   
-  }
-  .bann4{
-    font-size: 48px;
-    line-height: 1.0834933333;
-    font-weight: 600;
-    letter-spacing: -0.003em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    color: #06c;
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-image: linear-gradient(90deg,#1e3791 0%,#2948b1 40%,#3153c6 55%,#385fda 60%);
-    color: transparent;
-  }
-  .bannhide{
-    position: absolute;
-    clip: rect(1px,1px,1px,1px);
-    clip-path: inset(0px 0px 99.9% 99.9%);
-    overflow: hidden;
-    height: 1px;
-    width: 1px;
-    padding: 0;
-    border: 0;
-  }
-  .back-logo-container{
-    margin-top: 50%;
-    
-  }
-  .back-logo{
-    background-image: url('./assests/images/se.jpg');
-    width: 96px;
-    height: 22px;
-    background-size: 96px 22px;
-    background-repeat: no-repeat;
-    position: relative;
-    left: 50%;
-    margin-left: -48px;
-    margin-top: 20px;
 }
-.bann4{
-    display: flex;
-    justify-content: center;
-    margin-left: 50px;
+
+.bann-image2 {
+  background-image: url('./assests/images/banner2.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+
+
+  left: 50%;
+  margin-left: -490.5px;
+
+
+
+  height: 393px;
+  width: 961px;
+
+  background-size: 999px 500px;
+
+
 }
-.bann5{
-    font-size: 21px;
-    line-height: 1.381002381;
-    font-weight: 400;
-    letter-spacing: .011em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    margin: 0%;
-    padding: 0%;
-    margin-top: 10px;
-    margin-left: 40px;
-  
+
+.head-container1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+
+
+
 }
-  .head-btn1{
-    border-radius: 980px;
-   
-    cursor: pointer;
-    display: inline-block;
-    text-align: center;
-    white-space: nowrap;
-    font-size: 17px;
-    line-height: 1.1764805882;
-    font-weight: 400;
-    letter-spacing: -0.022em;
-    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    min-width: 28px;
-    padding: 8px 16px;
-    border-radius: 980px;
-    background: #0071e3;
-    color: #fff;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    margin-left: 130px;
-  }
-  .h2-cards{
-    text-align: center;
-    font-size: 48px;
-    line-height: 1.0834933333;
-    font-weight: 600;
-    letter-spacing: -0.003em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-
-  }
-  .i1{
-    background-image: url('./assests/images/i1.jpg');
-    width: 190px;
-    height: 257px;
-    background-size: 190px 257px;
-    background-repeat: no-repeat;
-  }
-  .i1-colour{
-
-    background-image: url('./assests/images/i1color.png');
-    width: 68px;
-    height: 14px;
-    background-size: 68px 14px;
-    background-repeat: no-repeat;
-    margin-left: 80px;
-  }
-  .i14{
-    background-image: url('./assests/images/i14.png');
-    width: 137px;
-    height: 20px;
-    background-size: 137px 20px;
-    background-repeat: no-repeat;
-  }
-  .card-p{
-    font-size: 14px;
-    line-height: 1.4285914286;
-    font-weight: 400;
-    letter-spacing: -0.016em;
-   
-    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    margin-left: 60px;
-  }
-  .card-btn{
-    font-size: 12px;
-    line-height: 1.3333733333;
-    font-weight: 400;
-    letter-spacing: -0.01em;
-    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    min-width: 23px;
-    padding: 4px 11px;
-    --sk-button-margin-horizontal: 10px;
-    --sk-button-margin-vertical: 10px;
-    text-decoration: none;
-    cursor: pointer;
-    
-    text-align: center;
-    white-space: nowrap;
-    font-size: 17px;
-    line-height: 1.1764805882;
-    font-weight: 400;
-    letter-spacing: -0.022em;
-    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    min-width: 28px;
-    padding: 8px 16px;
-    border-radius: 980px;
-    background: #0071e3;
-    color: #fff;
-    --sk-button-margin-horizontal: 14px;
-    --sk-button-margin-vertical: 14px;
-    margin-left: 60px;
-  }
-  .card-learn{
-    text-decoration: none;
-    font-size: 21px;
-    line-height: 1.381002381;
-    font-weight: 400;
-    letter-spacing: .011em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    color: #06c;
-    letter-spacing: inherit;
-    margin-left: 50px;
 
 
-  }
-.single-card{
-    border-bottom:#0b0b0b .02em solid;
-    gap: 80px;
+.sub-head1 {
+  font-size: 24px;
+  line-height: 1.1666666667;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 10px;
+  padding: 0%;
+  margin-top: 80px;
+
+
+
 }
-.i2{
+
+.bann-image3 {
+  background-image: url('./assests/images/banner3.jpg');
+  width: 494px;
+  height: 830px;
+  background-size: 494px 830px;
+  background-repeat: no-repeat;
+
+}
+
+.banner3-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.bann4 {
+  font-size: 48px;
+  line-height: 1.0834933333;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #06c;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(90deg, #1e3791 0%, #2948b1 40%, #3153c6 55%, #385fda 60%);
+  color: transparent;
+}
+
+.bannhide {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(0px 0px 99.9% 99.9%);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  border: 0;
+}
+
+.back-logo-container {
+  margin-top: 50%;
+
+}
+
+.back-logo {
+  background-image: url('./assests/images/se.jpg');
+  width: 96px;
+  height: 22px;
+  background-size: 96px 22px;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 50%;
+  margin-left: -48px;
+  margin-top: 20px;
+}
+
+.bann4 {
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.bann5 {
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 400;
+  letter-spacing: .011em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 0%;
+  padding: 0%;
+  margin-top: 10px;
+  margin-left: 40px;
+
+}
+
+.head-btn1 {
+  border-radius: 980px;
+
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  min-width: 28px;
+  padding: 8px 16px;
+  border-radius: 980px;
+  background: #0071e3;
+  color: #fff;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-left: 130px;
+}
+
+.h2-cards {
+  text-align: center;
+  font-size: 48px;
+  line-height: 1.0834933333;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+.i1 {
+  background-image: url('./assests/images/i1.jpg');
+  width: 190px;
+  height: 257px;
+  background-size: 190px 257px;
+  background-repeat: no-repeat;
+}
+
+.i1-colour {
+
+  background-image: url('./assests/images/i1color.png');
+  width: 68px;
+  height: 14px;
+  background-size: 68px 14px;
+  background-repeat: no-repeat;
+  margin-left: 80px;
+}
+
+.i14 {
+  background-image: url('./assests/images/i14.png');
+  width: 137px;
+  height: 20px;
+  background-size: 137px 20px;
+  background-repeat: no-repeat;
+}
+
+.card-p {
+  font-size: 14px;
+  line-height: 1.4285914286;
+  font-weight: 400;
+  letter-spacing: -0.016em;
+
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-left: 60px;
+}
+
+.card-btn {
+  font-size: 12px;
+  line-height: 1.3333733333;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  min-width: 23px;
+  padding: 4px 11px;
+  --sk-button-margin-horizontal: 10px;
+  --sk-button-margin-vertical: 10px;
+  text-decoration: none;
+  cursor: pointer;
+
+  text-align: center;
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  min-width: 28px;
+  padding: 8px 16px;
+  border-radius: 980px;
+  background: #0071e3;
+  color: #fff;
+  --sk-button-margin-horizontal: 14px;
+  --sk-button-margin-vertical: 14px;
+  margin-left: 60px;
+}
+
+.card-learn {
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 400;
+  letter-spacing: .011em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #06c;
+  letter-spacing: inherit;
+  margin-left: 50px;
+
+
+}
+
+.single-card {
+  border-bottom: #0b0b0b .02em solid;
+  gap: 80px;
+}
+
+.i2 {
   background-image: url('./assests/images/i2.jpg');
   width: 190px;
   height: 257px;
   background-size: 190px 257px;
   background-repeat: no-repeat;
 }
-.i14pro{
+
+.i14pro {
   background-image: url('./assests/images/i14pro.png');
   width: 137px;
   height: 20px;
   background-size: 137px 20px;
   background-repeat: no-repeat;
 }
-.i3{
+
+.i3 {
   background-image: url('./assests/images/i3.jpg');
   width: 190px;
   height: 257px;
   background-size: 190px 257px;
   background-repeat: no-repeat;
 }
-.i13{
+
+.i13 {
   background-image: url('./assests/images/i13.png');
   width: 137px;
   height: 20px;
   background-size: 137px 20px;
   background-repeat: no-repeat;
 }
-.ise{
+
+.ise {
   background-image: url('./assests/images/ise.png');
   width: 137px;
   height: 20px;
   background-size: 137px 20px;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
 }
-.i4{
+
+.i4 {
   background-image: url('./assests/images/i4.jpg');
   width: 151px;
-    height: 257px;
-    background-size: 151px 257px;
-    background-repeat: no-repeat
+  height: 257px;
+  background-size: 151px 257px;
+  background-repeat: no-repeat
 }
-.banner-4{
+
+.banner-4 {
   background-image: url('./assests/images/banner4.jpg');
   width: 1460px;
-    height: 560px;
-    background-size: 1460px 560px;
-    background-repeat: no-repeat;
-    margin-left: 20px;
+  height: 560px;
+  background-size: 1460px 560px;
+  background-repeat: no-repeat;
+  margin-left: 20px;
 }
-.bann4head{
+
+.bann4head {
   font-size: 40px;
-    line-height: 1.1;
-    font-weight: 600;
-    letter-spacing: 0em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    margin-left: 500px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-left: 500px;
 }
-.bann4body{
+
+.bann4body {
   font-size: 21px;
-    line-height: 1.381002381;
-    font-weight: 400;
-    letter-spacing: .011em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    margin-left: 500px ;
+  line-height: 1.381002381;
+  font-weight: 400;
+  letter-spacing: .011em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-left: 500px;
 }
-.bann4anchor{
+
+.bann4anchor {
   text-decoration: none;
-    font-size: 21px;
-    line-height: 1.381002381;
-    font-weight: 400;
-    letter-spacing: .011em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    color: #06c;
-    letter-spacing: inherit;
-    margin-left: 625px;
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 400;
+  letter-spacing: .011em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #06c;
+  letter-spacing: inherit;
+  margin-left: 625px;
 }
-.icon1{
+
+.icon1 {
   background-image: url('./assests/images/icon1.png');
   width: 51px;
-    height: 75px;
-    background-size: 51px 75px;
-    background-repeat: no-repeat;
-  
-    position: relative;
-    
-    
+  height: 75px;
+  background-size: 51px 75px;
+  background-repeat: no-repeat;
+
+  position: relative;
+
+
 }
-.bann5head{
-  
+
+.bann5head {
+
   font-size: 21px;
   line-height: 1.381002381;
   font-weight: 600;
   letter-spacing: .011em;
-  font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-.bann5p{
+
+.bann5p {
   font-size: 21px;
-    line-height: 1.381002381;
-    font-weight: 400;
-    letter-spacing: .011em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  line-height: 1.381002381;
+  font-weight: 400;
+  letter-spacing: .011em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-.bann5anchor{
+
+.bann5anchor {
   text-decoration: none;
-    font-size: 21px;
-    line-height: 1.381002381;
-    font-weight: 400;
-    letter-spacing: .011em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    color: #06c;
-    letter-spacing: inherit;
-    
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 400;
+  letter-spacing: .011em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #06c;
+  letter-spacing: inherit;
+
 }
-.banner-5{
+
+.banner-5 {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   gap: 60px;
   margin-left: 260px;
   margin-top: 60px;
-  
+
 
 }
-.icon2{
+
+.icon2 {
   background-image: url('./assests/images/icon2.png');
   width: 51px;
-    height: 75px;
-    background-size: 51px 75px;
-    background-repeat: no-repeat;
-  
-    position: relative;
+  height: 75px;
+  background-size: 51px 75px;
+  background-repeat: no-repeat;
+
+  position: relative;
 }
-.icon3{
+
+.icon3 {
   background-image: url('./assests/images/icon3.png');
   width: 51px;
-    height: 75px;
-    background-size: 51px 75px;
-    background-repeat: no-repeat;
-  
-    position: relative;
+  height: 75px;
+  background-size: 51px 75px;
+  background-repeat: no-repeat;
+
+  position: relative;
 }
-.banner5container{
+
+.banner5container {
   margin-top: 70px;
 }
-.bann6head{
+
+.bann6head {
   font-size: 56px;
-    line-height: 1.0714285714;
-    font-weight: 600;
-    letter-spacing: -0.005em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    text-align: center;
+  line-height: 1.0714285714;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-align: center;
 }
-.bann6fig{
+
+.bann6fig {
   background-image: url('./assests/images/banner6.jpg');
   background-color: #fff;
-    background-position: center;
-    text-align: center;
-    
-    width: 1380px;
-    height: 560px;
-    background-size: 1380px 560px;
-    background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+
+  width: 1380px;
+  height: 560px;
+  background-size: 1380px 560px;
+  background-repeat: no-repeat;
 }
-.bann6head{
+
+.bann6head {
   font-size: 48px;
-    line-height: 1.0834933333;
-    font-weight: 600;
-    letter-spacing: -0.003em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-  
+  line-height: 1.0834933333;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
 }
-.bann6p{
+
+.bann6p {
   font-size: 21px;
-    line-height: 1.381002381;
-    font-weight: 400;
-    letter-spacing: .011em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    text-align: center;
+  line-height: 1.381002381;
+  font-weight: 400;
+  letter-spacing: .011em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-align: center;
 }
-.bann6anchor{
+
+.bann6anchor {
   text-decoration: none;
-    font-size: 21px;
-    line-height: 1.381002381;
-    font-weight: 400;
-    letter-spacing: .011em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    color: #06c;
-    letter-spacing: inherit;
-   margin-left: 43%;
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 400;
+  letter-spacing: .011em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #06c;
+  letter-spacing: inherit;
+  margin-left: 43%;
 }
-.bann6{
+
+.bann6 {
   margin-top: -40%;
 
 }
-.footerp{
+
+.footerp {
   font-size: 12px;
-    line-height: 1.33337;
-    font-weight: 400;
-    letter-spacing: -.01em;
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
-}
-.footer{
- 
- 
- padding: 200px;
- margin-top: 13%;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-.banner7{
-  background-color:#f5f5f7;
+.footer {
+
+
+  padding: 200px;
+  margin-top: 13%;
+}
+
+.banner7 {
+  background-color: #f5f5f7;
   display: flex;
   justify-content: space-evenly;
- 
+  align-items: center;
+
 
 
 }
-.bann7head{
-  
+
+.bann7head {
+
   font-size: 56px;
-    line-height: 1.0714285714;
-    font-weight: 600;
-    letter-spacing: -0.005em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    text-align: center;
+  line-height: 1.0714285714;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-align: center;
 }
 
-.bann7card1{
-  background-color:white;
+.bann7card1 {
+  background-color: white;
   text-align: center;
   width: 450px;
 }
-.bann7h{
+
+.bann7h {
   font-size: 24px;
-    line-height: 1.1666666667;
-    font-weight: 600;
-    letter-spacing: -0.003em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  line-height: 1.1666666667;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-.bann7img{
+
+.bann7img {
   background-image: url('./assests/images/banner7.jpg');
   width: 400px;
-    height: 283px;
-    background-size: 400px 283px;
-    background-repeat: no-repeat;
+  height: 283px;
+  background-size: 400px 283px;
+  background-repeat: no-repeat;
+
+  position: relative;
+
+
+  transform: translateY(34px);
+}
+
+.bann8 {
+  font-size: 56px;
+  line-height: 1.0714285714;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-color:#f5f5f7;
+}
+.banner-8{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
   
-    position: relative;
-   
+  padding: 40px;
+  flex-wrap: wrap;
+
+}
+
+.bann8image {
+  background-image: url('./assests/images/banner8.jpg');
+  width: 633px;
+  height: 463px;
+  background-size: 633px 463px;
+  background-repeat: no-repeat;
+}
+
+.bann8head {
+  font-size: 48px;
+  line-height: 1.0834933333;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.bann8p {
+  Font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 400;
+  letter-spacing: .011em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.bann8anchor{
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 400;
+  letter-spacing: .011em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #06c;
+  letter-spacing: inherit;
  
-    transform: translateY(34px);
 }
