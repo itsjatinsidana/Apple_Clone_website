@@ -703,7 +703,7 @@
   padding: 50px;
 }
 .bann9head {
-  font-size: 48px;
+  font-size: 35px;
   line-height: 1.0834933333;
   font-weight: 600;
   letter-spacing: -0.003em;
@@ -711,7 +711,7 @@
 
 }
 .bann9p{
-  Font-size: 21px;
+  Font-size: 15px;
   line-height: 1.381002381;
   font-weight: 400;
   letter-spacing: .011em;
@@ -733,4 +733,42 @@
   height: 463px;
   background-size: 633px 463px;
   background-repeat: no-repeat;
+}
+.banner-10{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+ 
+
+
+ 
+}
+.banner10content{
+  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+width: 300px;
+height: 250px;
+justify-content: center;
+  align-items: center;
+ 
+  
+  
+}
+.bann10image{
+  background-image: url('./assests/images/banner10.jpg');
+  width: 1063px;
+    height: 498px;
+    background-size: 1063px 498px;
+    background-repeat: no-repeat;
+
+    position: relative;
+    
+   
+}
+.bann10img{
+  display: flex;
+  justify-content: center;
 }
