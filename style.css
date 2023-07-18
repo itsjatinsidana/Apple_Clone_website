@@ -595,8 +595,9 @@
 .banner7 {
   background-color: #f5f5f7;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  padding: 40px;
 
 
 
@@ -610,12 +611,21 @@
   letter-spacing: -0.005em;
   font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
   text-align: center;
+  
 }
 
 .bann7card1 {
-  background-color: white;
+  background-color: #fff;
   text-align: center;
-  width: 450px;
+  width: 400px;
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+  
+}
+.bann7he{
+  background-color: #f5f5f7;
+  padding: 2px;
 }
 
 .bann7h {
@@ -624,6 +634,7 @@
   font-weight: 600;
   letter-spacing: -0.003em;
   font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  
 }
 
 .bann7img {
