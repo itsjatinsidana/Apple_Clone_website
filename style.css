@@ -658,6 +658,7 @@
   padding: 40px;
   flex-wrap: wrap;
 
+
 }
 
 .bann8image {
@@ -693,4 +694,43 @@
   color: #06c;
   letter-spacing: inherit;
  
+}
+.banner-9{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+}
+.bann9head {
+  font-size: 48px;
+  line-height: 1.0834933333;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+.bann9p{
+  Font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 400;
+  letter-spacing: .011em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.bann9anchor{
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 400;
+  letter-spacing: .011em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #06c;
+  letter-spacing: inherit;
+}
+.bann9image{
+  background-image: url('./assests/images/banner9.jpg');
+  width: 633px;
+  height: 463px;
+  background-size: 633px 463px;
+  background-repeat: no-repeat;
 }
